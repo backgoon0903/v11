@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Fruitables - Vegetable Website Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+
+        <!-- Template Stylesheet -->
+      <link rel="stylesheet" crossorigin href="/assets/index-CqomD5OE.css">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar start -->
+        <div class="container-fluid fixed-top">
+            <div class="container topbar bg-primary d-none d-lg-block">
+                <div class="d-flex justify-content-between">
+                    <div class="top-info ps-2">
+                        <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" class="text-white">123 Street, New York</a></small>
+                        <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">Email@Example.com</a></small>
+                    </div>
+                    <div class="top-link pe-2">
+                        <a href="#" class="text-white"><small class="text-white mx-2">Privacy Policy</small>/</a>
+                        <a href="#" class="text-white"><small class="text-white mx-2">Terms of Use</small>/</a>
+                        <a href="#" class="text-white"><small class="text-white ms-2">Sales and Refunds</small></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-0">
+                <nav class="navbar navbar-light bg-white navbar-expand-xl">
+                    <a href="index.html" class="navbar-brand"><h1 class="text-primary display-6">Fruitables</h1></a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="shop.html" class="nav-item nav-link">Shop</a>
+                            <a href="shop-detail.html" class="nav-item nav-link">Shop Detail</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                                <div class="dropdown-menu m-0 bg-secondary rounded-0">
+                                    <a href="cart.html" class="dropdown-item">Cart</a>
+                                    <a href="chackout.html" class="dropdown-item">Chackout</a>
+                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                    <a href="404.html" class="dropdown-item">404 Page</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <div class="d-flex m-3 me-0">
+                            <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search text-primary"></i></button>
+                            <a href="#" class="position-relative me-4 my-auto">
+                                <i class="fa fa-shopping-bag fa-2x"></i>
+                                <span class="position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1" style="top: -5px; left: 15px; height: 20px; min-width: 20px;">3</span>
+                            </a>
+                            <a href="#" class="my-auto">
+                                <i class="fas fa-user fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+        <!-- Hero Start -->
+        <div class="container-fluid py-5 mb-5 hero-header">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-md-12 col-lg-7">
+                        <h4 class="mb-3 text-secondary">100% Organic Foods</h4>
+                        <h1 class="mb-5 display-3 text-primary">Organic Veggies & Fruits Foods</h1>
+                        <div class="position-relative mx-auto">
+                            <input class="form-control border-2 border-secondary w-75 py-3 px-4 rounded-pill" type="number" placeholder="Search">
+                            <button type="submit" class="btn btn-primary border-2 border-secondary py-3 px-4 position-absolute rounded-pill text-white h-100" style="top: 0; right: 25%;">Submit Now</button>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-5">
+                        <div id="carouselId" class="carousel slide position-relative" data-bs-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active rounded">
+                                    <img src="/assets/hero-img-1-DgBe0hrS.png" class="img-fluid w-100 h-100 bg-secondary rounded" alt="First slide">
+                                    <a href="#" class="btn px-4 py-2 text-white rounded">Fruites</a>
+                                </div>
+                                <div class="carousel-item rounded">
+                                    <img src="/assets/hero-img-2-CQboVenl.jpg" class="img-fluid w-100 h-100 rounded" alt="Second slide">
+                                    <a href="#" class="btn px-4 py-2 text-white rounded">Vesitables</a>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+
+        <!-- Featurs Section Start -->
+        <div class="container-fluid featurs py-5">
+            <div class="container py-5">
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="featurs-item text-center rounded bg-light p-4">
+                            <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
+                                <i class="fas fa-car-side fa-3x text-white"></i>
+                            </div>
+                            <div class="featurs-content text-center">
+                                <h5>Free Shipping</h5>
+                                <p class="mb-0">Free on order over $300</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="featurs-item text-center rounded bg-light p-4">
+                            <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
+                                <i class="fas fa-user-shield fa-3x text-white"></i>
+                            </div>
+                            <div class="featurs-content text-center">
+                                <h5>Security Payment</h5>
+                                <p class="mb-0">100% security payment</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="featurs-item text-center rounded bg-light p-4">
+                            <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
+                                <i class="fas fa-exchange-alt fa-3x text-white"></i>
+                            </div>
+                            <div class="featurs-content text-center">
+                                <h5>30 Day Return</h5>
+                                <p class="mb-0">30 day money guarantee</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="featurs-item text-center rounded bg-light p-4">
+                            <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
+                                <i class="fa fa-phone-alt fa-3x text-white"></i>
+                            </div>
+                            <div class="featurs-content text-center">
+                                <h5>24/7 Support</h5>
+                                <p class="mb-0">Support every time fast</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Featurs Section End -->
+
+
+        <!-- Fruits Shop Start-->
+        <div class="container-fluid fruite py-5">
+            <div class="container py-5">
+                <div class="tab-class text-center">
+                    <div class="row g-4">
+                        <div class="col-lg-4 text-start">
+                            <h1>Our Organic Products</h1>
+                        </div>
+                        <div class="col-lg-8 text-end">
+                            <ul class="nav nav-pills d-inline-flex text-center mb-5">
+                                <li class="nav-item">
+                                    <a class="d-flex m-2 py-2 bg-light rounded-pill active" data-bs-toggle="pill" href="#tab-1">
+                                        <span class="text-dark" style="width: 130px;">All Products</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="d-flex py-2 m-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-2">
+                                        <span class="text-dark" style="width: 130px;">Vegetables</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="d-flex m-2 py-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-3">
+                                        <span class="text-dark" style="width: 130px;">Fruits</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="d-flex m-2 py-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-4">
+                                        <span class="text-dark" style="width: 130px;">Bread</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="d-flex m-2 py-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-5">
+                                        <span class="text-dark" style="width: 130px;">Meat</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="/assets/fruite-item-5-D9rffnhY.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Grapes</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="/assets/fruite-item-5-D9rffnhY.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Grapes</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="/assets/fruite-item-2-4zUfCjts.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Raspberries</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="/assets/fruite-item-4-ZV5YYKLJ.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Apricots</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="/assets/fruite-item-3-CDO8Z1yT.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Banana</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="/assets/fruite-item-1-BVMXrrOM.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Oranges</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="/assets/fruite-item-2-4zUfCjts.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Raspberries</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="/assets/fruite-item-5-D9rffnhY.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Grapes</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="/assets/fruite-item-5-D9rffnhY.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Grapes</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="/assets/fruite-item-2-4zUfCjts.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Raspberries</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="/assets/fruite-item-1-BVMXrrOM.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Oranges</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="/assets/fruite-item-6-CGj1LvAH.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Apple</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-4" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="/assets/fruite-item-5-D9rffnhY.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Grapes</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="/assets/fruite-item-4-ZV5YYKLJ.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Apricots</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-5" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="/assets/fruite-item-3-CDO8Z1yT.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Banana</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="/assets/fruite-item-2-4zUfCjts.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Raspberries</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="/assets/fruite-item-1-BVMXrrOM.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Oranges</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>      
+            </div>
+        </div>
+        <!-- Fruits Shop End-->
+
+
+        <!-- Featurs Start -->
+        <div class="container-fluid service py-5">
+            <div class="container py-5">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4">
+                        <a href="#">
+                            <div class="service-item bg-secondary rounded border border-secondary">
+                                <img src="/assets/featur-1-ezKmpGx3.jpg" class="img-fluid rounded-top w-100" alt="">
+                                <div class="px-4 rounded-bottom">
+                                    <div class="service-content bg-primary text-center p-4 rounded">
+                                        <h5 class="text-white">Fresh Apples</h5>
+                                        <h3 class="mb-0">20% OFF</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <a href="#">
+                            <div class="service-item bg-dark rounded border border-dark">
+                                <img src="/assets/featur-2-DHDTPfH8.jpg" class="img-fluid rounded-top w-100" alt="">
+                                <div class="px-4 rounded-bottom">
+                                    <div class="service-content bg-light text-center p-4 rounded">
+                                        <h5 class="text-primary">Tasty Fruits</h5>
+                                        <h3 class="mb-0">Free delivery</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <a href="#">
+                            <div class="service-item bg-primary rounded border border-primary">
+                                <img src="/assets/featur-3-DrbjyrwR.jpg" class="img-fluid rounded-top w-100" alt="">
+                                <div class="px-4 rounded-bottom">
+                                    <div class="service-content bg-secondary text-center p-4 rounded">
+                                        <h5 class="text-white">Exotic Vegitable</h5>
+                                        <h3 class="mb-0">Discount 30$</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Featurs End -->
+
+
+        <!-- Vesitable Shop Start-->
+        <div class="container-fluid vesitable py-5">
+            <div class="container py-5">
+                <h1 class="mb-0">Fresh Organic Vegetables</h1>
+                <div class="owl-carousel vegetable-carousel justify-content-center">
+                    <div class="border border-primary rounded position-relative vesitable-item">
+                        <div class="vesitable-img">
+                            <img src="/assets/vegetable-item-6-ByU82hWo.jpg" class="img-fluid w-100 rounded-top" alt="">
+                        </div>
+                        <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>
+                        <div class="p-4 rounded-bottom">
+                            <h4>Parsely</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                            <div class="d-flex justify-content-between flex-lg-wrap">
+                                <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border border-primary rounded position-relative vesitable-item">
+                        <div class="vesitable-img">
+                            <img src="/assets/vegetable-item-1-Dv_WPRZV.jpg" class="img-fluid w-100 rounded-top" alt="">
+                        </div>
+                        <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>
+                        <div class="p-4 rounded-bottom">
+                            <h4>Parsely</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                            <div class="d-flex justify-content-between flex-lg-wrap">
+                                <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border border-primary rounded position-relative vesitable-item">
+                        <div class="vesitable-img">
+                            <img src="/assets/vegetable-item-3-Cwjxm_Wa.png" class="img-fluid w-100 rounded-top bg-light" alt="">
+                        </div>
+                        <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>
+                        <div class="p-4 rounded-bottom">
+                            <h4>Banana</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                            <div class="d-flex justify-content-between flex-lg-wrap">
+                                <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
+                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border border-primary rounded position-relative vesitable-item">
+                        <div class="vesitable-img">
+                            <img src="/assets/vegetable-item-4-BYhxOFiM.jpg" class="img-fluid w-100 rounded-top" alt="">
+                        </div>
+                        <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>
+                        <div class="p-4 rounded-bottom">
+                            <h4>Bell Papper</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                            <div class="d-flex justify-content-between flex-lg-wrap">
+                                <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
+                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border border-primary rounded position-relative vesitable-item">
+                        <div class="vesitable-img">
+                            <img src="/assets/vegetable-item-5-BZ6Pw9pw.jpg" class="img-fluid w-100 rounded-top" alt="">
+                        </div>
+                        <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>
+                        <div class="p-4 rounded-bottom">
+                            <h4>Potatoes</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                            <div class="d-flex justify-content-between flex-lg-wrap">
+                                <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
+                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border border-primary rounded position-relative vesitable-item">
+                        <div class="vesitable-img">
+                            <img src="/assets/vegetable-item-6-ByU82hWo.jpg" class="img-fluid w-100 rounded-top" alt="">
+                        </div>
+                        <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>
+                        <div class="p-4 rounded-bottom">
+                            <h4>Parsely</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                            <div class="d-flex justify-content-between flex-lg-wrap">
+                                <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
+                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border border-primary rounded position-relative vesitable-item">
+                        <div class="vesitable-img">
+                            <img src="/assets/vegetable-item-5-BZ6Pw9pw.jpg" class="img-fluid w-100 rounded-top" alt="">
+                        </div>
+                        <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>
+                        <div class="p-4 rounded-bottom">
+                            <h4>Potatoes</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                            <div class="d-flex justify-content-between flex-lg-wrap">
+                                <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
+                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border border-primary rounded position-relative vesitable-item">
+                        <div class="vesitable-img">
+                            <img src="/assets/vegetable-item-6-ByU82hWo.jpg" class="img-fluid w-100 rounded-top" alt="">
+                        </div>
+                        <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>
+                        <div class="p-4 rounded-bottom">
+                            <h4>Parsely</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                            <div class="d-flex justify-content-between flex-lg-wrap">
+                                <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
+                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Vesitable Shop End -->
+
+
+        <!-- Banner Section Start-->
+        <div class="container-fluid banner bg-secondary my-5">
+            <div class="container py-5">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="py-4">
+                            <h1 class="display-3 text-white">Fresh Exotic Fruits</h1>
+                            <p class="fw-normal display-3 text-dark mb-4">in Our Store</p>
+                            <p class="mb-4 text-dark">The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.</p>
+                            <a href="#" class="banner-btn btn border-2 border-white rounded-pill text-dark py-3 px-5">BUY</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="position-relative">
+                            <img src="/assets/baner-1-Bd-FVFrT.png" class="img-fluid w-100 rounded" alt="">
+                            <div class="d-flex align-items-center justify-content-center bg-white rounded-circle position-absolute" style="width: 140px; height: 140px; top: 0; left: 0;">
+                                <h1 style="font-size: 100px;">1</h1>
+                                <div class="d-flex flex-column">
+                                    <span class="h2 mb-0">50$</span>
+                                    <span class="h4 text-muted mb-0">kg</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Banner Section End -->
+
+
+        <!-- Bestsaler Product Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto mb-5" style="max-width: 700px;">
+                    <h1 class="display-4">Bestseller Products</h1>
+                    <p>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="p-4 rounded bg-light">
+                            <div class="row align-items-center">
+                                <div class="col-6">
+                                    <img src="/assets/best-product-1-B5ITaxjM.jpg" class="img-fluid rounded-circle w-100" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <a href="#" class="h5">Organic Tomato</a>
+                                    <div class="d-flex my-3">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h4 class="mb-3">3.12 $</h4>
+                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="p-4 rounded bg-light">
+                            <div class="row align-items-center">
+                                <div class="col-6">
+                                    <img src="/assets/best-product-2-CvvxDxWZ.jpg" class="img-fluid rounded-circle w-100" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <a href="#" class="h5">Organic Tomato</a>
+                                    <div class="d-flex my-3">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h4 class="mb-3">3.12 $</h4>
+                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="p-4 rounded bg-light">
+                            <div class="row align-items-center">
+                                <div class="col-6">
+                                    <img src="/assets/best-product-3-CaqZvsRG.jpg" class="img-fluid rounded-circle w-100" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <a href="#" class="h5">Organic Tomato</a>
+                                    <div class="d-flex my-3">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h4 class="mb-3">3.12 $</h4>
+                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="p-4 rounded bg-light">
+                            <div class="row align-items-center">
+                                <div class="col-6">
+                                    <img src="/assets/best-product-4-DorCNt0R.jpg" class="img-fluid rounded-circle w-100" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <a href="#" class="h5">Organic Tomato</a>
+                                    <div class="d-flex my-3">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h4 class="mb-3">3.12 $</h4>
+                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="p-4 rounded bg-light">
+                            <div class="row align-items-center">
+                                <div class="col-6">
+                                    <img src="/assets/best-product-5-D87868Lv.jpg" class="img-fluid rounded-circle w-100" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <a href="#" class="h5">Organic Tomato</a>
+                                    <div class="d-flex my-3">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h4 class="mb-3">3.12 $</h4>
+                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="p-4 rounded bg-light">
+                            <div class="row align-items-center">
+                                <div class="col-6">
+                                    <img src="/assets/best-product-6-DlGWSfnI.jpg" class="img-fluid rounded-circle w-100" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <a href="#" class="h5">Organic Tomato</a>
+                                    <div class="d-flex my-3">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h4 class="mb-3">3.12 $</h4>
+                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="text-center">
+                            <img src="/assets/fruite-item-1-BVMXrrOM.jpg" class="img-fluid rounded" alt="">
+                            <div class="py-4">
+                                <a href="#" class="h5">Organic Tomato</a>
+                                <div class="d-flex my-3 justify-content-center">
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h4 class="mb-3">3.12 $</h4>
+                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="text-center">
+                            <img src="/assets/fruite-item-2-4zUfCjts.jpg" class="img-fluid rounded" alt="">
+                            <div class="py-4">
+                                <a href="#" class="h5">Organic Tomato</a>
+                                <div class="d-flex my-3 justify-content-center">
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h4 class="mb-3">3.12 $</h4>
+                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="text-center">
+                            <img src="/assets/fruite-item-3-CDO8Z1yT.jpg" class="img-fluid rounded" alt="">
+                            <div class="py-4">
+                                <a href="#" class="h5">Organic Tomato</a>
+                                <div class="d-flex my-3 justify-content-center">
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h4 class="mb-3">3.12 $</h4>
+                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="text-center">
+                            <img src="/assets/fruite-item-4-ZV5YYKLJ.jpg" class="img-fluid rounded" alt="">
+                            <div class="py-2">
+                                <a href="#" class="h5">Organic Tomato</a>
+                                <div class="d-flex my-3 justify-content-center">
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h4 class="mb-3">3.12 $</h4>
+                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bestsaler Product End -->
+
+
+        <!-- Fact Start -->
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="bg-light p-5 rounded">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="counter bg-white rounded p-5">
+                                <i class="fa fa-users text-secondary"></i>
+                                <h4>satisfied customers</h4>
+                                <h1>1963</h1>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="counter bg-white rounded p-5">
+                                <i class="fa fa-users text-secondary"></i>
+                                <h4>quality of service</h4>
+                                <h1>99%</h1>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="counter bg-white rounded p-5">
+                                <i class="fa fa-users text-secondary"></i>
+                                <h4>quality certificates</h4>
+                                <h1>33</h1>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="counter bg-white rounded p-5">
+                                <i class="fa fa-users text-secondary"></i>
+                                <h4>Available Products</h4>
+                                <h1>789</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fact Start -->
+
+
+        <!-- Tastimonial Start -->
+        <div class="container-fluid testimonial py-5">
+            <div class="container py-5">
+                <div class="testimonial-header text-center">
+                    <h4 class="text-primary">Our Testimonial</h4>
+                    <h1 class="display-5 mb-5 text-dark">Our Client Saying!</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item img-border-radius bg-light rounded p-4">
+                        <div class="position-relative">
+                            <i class="fa fa-quote-right fa-2x text-secondary position-absolute" style="bottom: 30px; right: 0;"></i>
+                            <div class="mb-4 pb-4 border-bottom border-secondary">
+                                <p class="mb-0">Lorem Ipsum is simply dummy text of the printing Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center flex-nowrap">
+                                <div class="bg-secondary rounded">
+                                    <img src="data:image/jpeg;base64,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" class="img-fluid rounded" style="width: 100px; height: 100px;" alt="">
+                                </div>
+                                <div class="ms-4 d-block">
+                                    <h4 class="text-dark">Client Name</h4>
+                                    <p class="m-0 pb-3">Profession</p>
+                                    <div class="d-flex pe-5">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item img-border-radius bg-light rounded p-4">
+                        <div class="position-relative">
+                            <i class="fa fa-quote-right fa-2x text-secondary position-absolute" style="bottom: 30px; right: 0;"></i>
+                            <div class="mb-4 pb-4 border-bottom border-secondary">
+                                <p class="mb-0">Lorem Ipsum is simply dummy text of the printing Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center flex-nowrap">
+                                <div class="bg-secondary rounded">
+                                    <img src="data:image/jpeg;base64,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" class="img-fluid rounded" style="width: 100px; height: 100px;" alt="">
+                                </div>
+                                <div class="ms-4 d-block">
+                                    <h4 class="text-dark">Client Name</h4>
+                                    <p class="m-0 pb-3">Profession</p>
+                                    <div class="d-flex pe-5">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item img-border-radius bg-light rounded p-4">
+                        <div class="position-relative">
+                            <i class="fa fa-quote-right fa-2x text-secondary position-absolute" style="bottom: 30px; right: 0;"></i>
+                            <div class="mb-4 pb-4 border-bottom border-secondary">
+                                <p class="mb-0">Lorem Ipsum is simply dummy text of the printing Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center flex-nowrap">
+                                <div class="bg-secondary rounded">
+                                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAQEBAQEBAQEBAQGBgUGBggHBwcHCAwJCQkJCQwTDA4MDA4MExEUEA8QFBEeFxUVFx4iHRsdIiolJSo0MjRERFwBBAQEBAQEBAQEBAYGBQYGCAcHBwcIDAkJCQkJDBMMDgwMDgwTERQQDxAUER4XFRUXHiIdGx0iKiUlKjQyNEREXP/CABEIAGQAZAMBIgACEQEDEQH/xAAdAAABBQEBAQEAAAAAAAAAAAAGAwQFBwgCAQkA/9oACAEBAAAAAKVZrFA1LRkAZqyIs+j2ayXKrONE7COBt8wYxSJsnUj5lEWtKumTAF4+li+EaZ7bzNmSiMXWhP8ASqWAPmq096PjFsJBx9qy4BzK9VACFrk6YSD6g1uhFTdKYlbnhamP1toXWcgHG1TURm2xT2Giwc63uih5D4TDD03D/WcHsO3OGleZODDslgvOOnGnDQHqCj1nEpJdyHASYbczznDrt3OqKfokfNNXYh7RVkHf/8QAGgEAAgMBAQAAAAAAAAAAAAAABAUBAwYCAP/aAAgBAhAAAADDku+1i2v2pGYznlxWlUksVmfI0SqLD8xe+A8QXl+3hC97NC1+MObHf//EABoBAAIDAQEAAAAAAAAAAAAAAAQFAQMGAgD/2gAIAQMQAAAA1FS3g4zqEjBVw5NFUaEJMY6oV6OQE72lXo+06x/Wq88y1Vxyck9VMf/EACcQAAICAgICAgIDAAMAAAAAAAIDAQQFBgARBxITIRQVCCIxFkFR/9oACAEBAAEIALAxDT4U9yXA7mIgdBvpx2TtWbA2v3dulUD9JjblaAoZDDXvxhihQ2S9Ss49GVTbqXcJJ1ro9BtRkzqLWxdpmPqOM/0eW4KGHyZ7PglCvQ+Y0GtJ3tm7IFaTjsOi4qzgoXXbjc30UJujlgSbGFeJL4toxWyJyuOvJO16w/YShMf9Q0Q9o7fMyTYmYiJiZvXCI5rIs5xWBVWhOGxeb2hS8pzK6lseEq36jTyN6qUqaGWOVCRm1d5xGYuOtZJ6Mdsqskx4ij6EZ42Y9o5ZKfkZyyUJU1rMNa/Mu2PduMbk8zSoxqOKx2IxSaaMvgkX0PWfl/TbOu5OLSkEtsxHL7gmFpFiirmIGmxYquXfo4e7N/HptEcxJcZPZl1ekPxrBHLnYjNSUadYbl/IOsJjBpF6Q9WqkY6jd9Ro7HiLKbt/EBUt264xUmP7jXiAmzYt0uheqhZ1AmfDkUCfXtPTOpIuZqW2WI/Fuwn5LHv4Wxjv+RXdka/yLp+XQhFjD3WWayUznv1rrKMlmPJOI1TZswWR1vI6bsGGqWrNltl4rt1eMrFZcsw1W0L8YtUH9Fw4j5Gc2VFlUfsambrjXVU5/GhyopZgeWMBQEpsnjqZ+2Qt1sVWrXwOrkH4LHoAmL2ytVJrwPbMTcwmQbB0DUdZFbmtUvxZuOgo7meF7S1nNhNKsVYmxsjPmvS8f462HVZzwlZytzIJOjUoZenToWK9xMOv2136DsocJNL87VZkPknnlahWfqtx8LW+zeCkrV70MsxRGO57njsqXytIMo0sjj7NPl9zH4RAT4oz6dN33BNt5/GOt4ayzD6z8OyYWbtXPzicCh53tSTk24RlrPbJZTXriIeRrz37ff8AljvsbqsFdB9gOGwQmImOudxE9w6lXdHrF2mYDNcvFW9WjVX1TZK+qUya9tc9SqL9GWctnE1hmnFuy7JNlzfIdjB5LNfk4eKbmBIMwd6sJAp9k5A4GfmdH0MnYH/fnfH1wVXbMeo53JWqSlPDxh5hjYsYVbJ5fcjhJQFOjfzT/Zvkzeld29W10FQH9REPvqPX2CY5XfZSkFBB/fBiXTMChVBcQXLWSNcdDessu2Jlni3IxhN5wpvuYemT6oJ8oeTq4hc1LSBGFj7DAdRMcj/yEAEyPYLWIxEsSACZxbUAfr68MUoBWI3ACIL1ER9WFzx1URa3jTK7/N2av6zqty1h2dCICJgPsIcLv6jkDHao5WWE/HMmwk+sB//EADUQAAIBAwMCBAMGBgMBAAAAAAECAwAEERIhMUFRBRMicTJSYRAUQoGRoQYjM0OTsQckkqP/2gAIAQEACT8APP2DkYHvTaUQHP5ZqMWtnZ2pSe6nchSAxYso561esmCwea4YnAxkV/Fskyx40RRkYH1JA3NQebbWkzNriTEgz36GriOQnxmOQqDh1U915FHJN5AAa5Xw+BaG2vmj0H2fDmv0+tT6YWfVJsMEZ7tUKREozSsF0E6Rq3+mBsKuJYZPPEc8TaTqVuJFzvjvU6OEkKs8LaAwHzLnp3qFbqPONLtkjA7DHFRtFICNkOWDdjnkHsaP/ZnnilPY6DgjBrH9C3QfoK+at9hS4ORkUcGidQXB08nV2+pq1hluTj48toA/ETVs8kyAPGqrn0scbVYK1lKCxUJl42HVGqR1JIXVvsw2XV9KYCQ7OCM/pTxQ6j6pHGXwOiipSOQqk5LAfiyKbX96hjBYkBlkQbqwr5jXauWxRH8tC59lGaYrhdZB5OaBAvLyKBe+hm3/AEFQImEVQcAHAFacOMHao9cFzr3G2HHIPuKn/IncHtQ1YOAo2yadC43YJlgn0z3q2CtCAssgHoIJ/F2JFRiNzIwZV3UY6gnofs5FAaNOCCecnGPc1GFEiDbOdIzwSPxCm1IL8yFTwFVS1SxyFUBCo4Y49hSkkAnaogq6Dh2wMH3NTqWgnkhZTsQVYjmlOtcgE8Z6isyaYmCIB8TkdSamzFKVbEUmBvuNXQ4ok2aXWIHP1HqUdwKIo/TFXKgRSktGQchxw1OfOLZYtgI5I/aoQ9t4ZD1GUJlOnPsAKuWRzJojntrWZCkmcZWRACDV4LpoosidWB1gberH4hVw08UbiG3tWY+Uzk4B0DGpiavG8N8SZvKurWW0eOGSVdgwOCEeoVEaKdZT1j32pWZ5DGWzyAN2xRLhwMvsN6bPkuyDPbp9h7UoKxljcoTp1dmJ/wBinUXE0aSTRDJ0lhnAB4xShzHPGh9nrwq1kldQfMVfXUIjt/L8pAmFyw5JxVpFcTJ/UEihiO1WNpFiPZo0wcVAgimRoWAGAwIoAQsD5TDkgbZalC5VpJZTgrGijd9up4AosY5pg0eedIXBz+dAUMYNLqjeSJW65GsGoGQaA0TA8gnO9YOuG3uECkE+WrFKd0iUATzDbSD+FT8xqOS1EcmECqSGXHSoprRhcGU3DHBdeNGntjnNKA2nOQPSw7ikIjHrGdthUyRz297ZRxxlAWnMobKK3QqF1GgBkhdGrCkLTsQqtIfNOGzwRjrXeoSyltjnBIqHBddS78OpyKObmDVHImnP8sHOfpip8WPidotrO8jAhBP8DfRQ4q9e0vkTzI2QBhrj3KMp2INfx5F4fcgFbix8StoHEE4Hwh8oWQnhq/5FTxEoG02lhZw+dIdsZcFgoqRXeXLwx6ceVGeFJ618UhKoBUpAjEX3cFvQqBMBiPmNQMFRk8x2O8jqdWoE8D2rwwiSZUBnVtkC75we9AVK/wDjNSP/AI6LoS+pisfxdwe4NeH+fE8Zihf+7AwOzKRjK/Q00qXkcEYtJp3VpLiILt5mnIEq/uKghR5GYtlEcEk5JAcHGabzyjakQqqoG9lAzUmyDXcEHhRwg96BMk2yRjiKLt7mnee9VilxOuPux07BI/mYdW4rJJPfgfUU/wB2nKhA39mXHUg/C37V8opXH/mkcfmtKwHuKhkdO+QB+tSCO/xGI2h28oxjCsD81Wzr4xYxIt0YtkmB2WZffqKURMRs7sp5+VVJLGkaG1168OMvKe7VPlATD4hdwn4u9tEw/wDo1ABgNyOFHyiulH4hipX0qMKMBsDsCaSkwF+JmOFUUyyv1JIKj2FbAU2yf7NPi2vnexl7fzh6CfZhUMUckx9RWNQcVPiEEw3/AInGd5SNmigbt0L0o9A0oBxmjsOT3ahTflmh+1FiQrHc9qXKSAO4bfJ0lqiQA44UClxt0Jobjek1xP4vAzqeGwScGnEM91f2/hfmctFBOhdzF2c0MDKqPoKHpVSQKJr8XNKN9+K2BBOMnuRX/8QALREAAgIBAgUCAwkAAAAAAAAAAQIAAxEEEgUhMUFxUWETFCIyM1JicoGRodH/2gAIAQIBAT8AXsZpqGvcjtKdLTWu0VA+ecbSUOuDUB45S7QvTl0JZJb9oQRewE0+nFFSj2yxg1T53KoxK2W1A6wpOJaf4TJYg+jOD5gmhoN9yr2X6jLyEosJ/Dj9zygG0DII8iaZxWW67T1OOQMR1sBKsCJxUY05IGckA+3vADgc5obWr1NO3uwU+4M1/PSOR2Kn+4GDFQOggO1cGcOtcXlOqscGcTVjpX2+xPiCJsRkdRzUgg+ImpqvR6yeoOQeRHjxKnVTjarj1H+iWuCMKgXxOHrttJ25JX+JxAP8u4FZYd8HpAIgLuESvcT0AlHCjgNeQv5V6y3R0JQ3wk27eY9ZVU1r7UHkntKalpTao8n1hzDp6GJLUVknqSonBgM3NjmAMGHpLfurP0tNAAKrDjnvMboIIJ//xAAtEQACAQIEBQMCBwAAAAAAAAABAgMAEQQhMUEFEhNxgRAUUSJhMjNicpGhsf/aAAgBAwEBPwA1NII1vTzSMblyO1DEyo1w5PfOosUsv0tk1Lp6HeppjK572FDAIVs7m9So8EjRuMxQesHP1AVb8WvivFYmURRknU5CsOvUnjX5YVzcxNnU2+DesbD1Qua842uASKkjaMgOpBOxrAG8tjkQD59MSivDJfYEjuK4bb3sIbRrj+qKcl9C19qZFZwRauKwx9ESaFdPNYEgTrfx3qwpmLAg6HKulJBIkqjNSLWGveo2SVCTK8TZENyK/cMrU4jWwWV5TfN2CoPCqBauJsTCLtb6sh81hCvWW7gH771e2VqYhVLM9gKm4gM1hBb7nIVhMbN7mMO9w5CkbZ1iJUgj6s7WGyjc1iJ3xMhd/A2AoUJ5QABM4A/Ua4oSFiF8iTQ1qH8+L96/7XFWYzxAkkCJT/NDX1//2Q==" class="img-fluid rounded" style="width: 100px; height: 100px;" alt="">
+                                </div>
+                                <div class="ms-4 d-block">
+                                    <h4 class="text-dark">Client Name</h4>
+                                    <p class="m-0 pb-3">Profession</p>
+                                    <div class="d-flex pe-5">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Tastimonial End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
+            <div class="container py-5">
+                <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(226, 175, 24, 0.5) ;">
+                    <div class="row g-4">
+                        <div class="col-lg-3">
+                            <a href="#">
+                                <h1 class="text-primary mb-0">Fruitables</h1>
+                                <p class="text-secondary mb-0">Fresh products</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="position-relative mx-auto">
+                                <input class="form-control border-0 w-100 py-3 px-4 rounded-pill" type="number" placeholder="Your Email">
+                                <button type="submit" class="btn btn-primary border-0 border-secondary py-3 px-4 position-absolute rounded-pill text-white" style="top: 0; right: 0;">Subscribe Now</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="d-flex justify-content-end pt-3">
+                                <a class="btn  btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-youtube"></i></a>
+                                <a class="btn btn-outline-secondary btn-md-square rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="text-light mb-3">Why People Like us!</h4>
+                            <p class="mb-4">typesetting, remaining essentially unchanged. It was 
+                                popularised in the 1960s with the like Aldus PageMaker including of Lorem Ipsum.</p>
+                            <a href="" class="btn border-secondary py-2 px-4 rounded-pill text-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="d-flex flex-column text-start footer-item">
+                            <h4 class="text-light mb-3">Shop Info</h4>
+                            <a class="btn-link" href="">About Us</a>
+                            <a class="btn-link" href="">Contact Us</a>
+                            <a class="btn-link" href="">Privacy Policy</a>
+                            <a class="btn-link" href="">Terms & Condition</a>
+                            <a class="btn-link" href="">Return Policy</a>
+                            <a class="btn-link" href="">FAQs & Help</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="d-flex flex-column text-start footer-item">
+                            <h4 class="text-light mb-3">Account</h4>
+                            <a class="btn-link" href="">My Account</a>
+                            <a class="btn-link" href="">Shop details</a>
+                            <a class="btn-link" href="">Shopping Cart</a>
+                            <a class="btn-link" href="">Wishlist</a>
+                            <a class="btn-link" href="">Order History</a>
+                            <a class="btn-link" href="">International Orders</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="text-light mb-3">Contact</h4>
+                            <p>Address: 1429 Netus Rd, NY 48247</p>
+                            <p>Email: Example@gmail.com</p>
+                            <p>Phone: +0123 4567 8910</p>
+                            <p>Payment Accepted</p>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOwAAAAeCAMAAAAYVwI0AAADamlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjI5NDE0NDk2NUUxRkVDMTE4NTcyQUM4QzEwNDAxNzBGIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjhFQkE5NTI2NzA5ODExRUNCNUMwQUY5OTVEMUEyMzc1IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjhFQkE5NTI1NzA5ODExRUNCNUMwQUY5OTVEMUEyMzc1IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE4IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkM5QUFDMjcwNDk0REVDMTE4NTI4RjM0RjE1MzQ2MDg5IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjI5NDE0NDk2NUUxRkVDMTE4NTcyQUM4QzEwNDAxNzBGIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hw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" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright bg-dark py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 my-auto text-center text-md-end text-white">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
